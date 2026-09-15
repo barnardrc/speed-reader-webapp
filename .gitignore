@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Private runtime data and user-provided documents
+data/
+backend/data/
+books/
+*.epub
+*.pdf
+
+# Frontend build and dependencies
+web/node_modules/
+web/dist/
+web/.vite/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+web/.env
+web/.env.*
+!web/.env.example
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

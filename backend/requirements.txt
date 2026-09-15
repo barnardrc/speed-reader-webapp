@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+requests
+pymupdf
+beautifulsoup4
+sqlalchemy
+passlib[bcrypt]
+bcrypt<4.1
+python-jose[cryptography]
+cryptography
+litellm
